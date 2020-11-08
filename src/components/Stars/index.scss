@@ -6,7 +6,9 @@
 }
 
 .stars {
+  white-space: nowrap;
   .star {
+    display: inline-block;
     border: none;
     background: none;
     cursor: pointer;
@@ -42,5 +44,8 @@
   .stars .star {
     font-size: 45px;
     line-height: 45px;
+  }
+  .star {
+    padding: 0 2px;
   }
 }
